@@ -2,4 +2,8 @@ import streamlit as st
 
 def page_3():
   st.title("Halaman 3")
-  st.write("Halaman untuk Rumus MTK")
+  st.write("Menampilkan Halaman dari File MD (MarkDown)")
+  
+  with open('nama.md', 'r') as file:
+      isi_teks = file.read()
+      st.markdown(isi_teks)
