@@ -17,9 +17,9 @@ from page4 import page_4
 # df
   
 PAGES = {
-  "Intro" : page_1,
-  "Page 2" : page_2,
-  "Page 3" : page_3,
+  "Profile Enhypen" : page_1,
+  "Lagu Enhypen" : page_2,
+  "Belajar Python" : page_3,
   "Kalkulator Luas P2" : page_4
   }
 
