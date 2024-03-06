@@ -24,5 +24,5 @@ PAGES = {
   }
 
 st.sidebar.image("image1.png", width=100)
-page = st.sidebar.radio("Halaman", list(PAGES.keys()))
+page = st.sidebar.radio("Halaman:", list(PAGES.keys()))
 PAGES[page]()
