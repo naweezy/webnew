@@ -3,6 +3,8 @@ from page1 import page_1
 from page2 import page_2
 from page3 import page_3
 from page4 import page_4
+from page5 import page_5
+from image1 import main
 
 # import pandas as pd
 #import matplotlib.pyplot as plt
@@ -20,9 +22,11 @@ PAGES = {
   "Profile Enhypen" : page_1,
   "Lagu Enhypen" : page_2,
   "Belajar Python" : page_3,
-  "Kalkulator Luas P2" : page_4
+  "Kalkulator Luas P2" : page_4,
+  "Kalkulator Luas Segitiga" : page_5,
+  "Image Processing" : main
   }
 
 st.sidebar.image("image1.png", width=100)
-page = st.sidebar.radio("Halaman:", list(PAGES.keys()))
+page = st.sidebar.radio("Nurul Azisa", list(PAGES.keys()))
 PAGES[page]()
