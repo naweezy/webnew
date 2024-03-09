@@ -33,7 +33,7 @@ PAGES[page]()
 
 st.markdown(
   """
-        <style.>
+        <style>
         [data-testid]="stActionButtonIcon"] {
           display: none;
         }  
@@ -41,7 +41,7 @@ st.markdown(
           display: none;
         }
         
-        </style.
+        </style>
         """,
   unsafe_allow_html=True,
 )
