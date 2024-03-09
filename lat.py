@@ -27,7 +27,7 @@ PAGES = {
   "Image Processing" : main
   }
 
-st.sidebar.image("image1.png", width=100)
+st.sidebar.image("image1.png", width=180)
 page = st.sidebar.radio("Nurul Azisa", list(PAGES.keys()))
 PAGES[page]()
 
@@ -40,6 +40,9 @@ st.markdown(
         [data-testid="baseButton-header"] {
           display: none;
         }
+        
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
         
         </style>
         """,
