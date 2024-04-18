@@ -22,7 +22,7 @@ PAGES = {
   "Profile Enhypen" : page_1,
   "Lagu Enhypen" : page_2,
   "Belajar Python" : page_3,
-  "Kalkulator Luas P2" : page_4,
+  "Kalkulator Luas Persegi Panjang" : page_4,
   "Kalkulator Luas Segitiga" : page_5,
   "Image Processing" : main
   }
